@@ -17,7 +17,7 @@
     font-style: normal;
 }
 
-/* Some reasonable defaults */
+/* Add some reasonable defaults */
 .fonticon {
     font-family: 'jplusplus';
     speak: none;
@@ -26,6 +26,12 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* ...or you can chose to use pseudo elements */
+.twitter-icon:before {
+    font-family: 'jplusplus';
+    content: 't';
 }
 
 /* No text decoration on links. */
