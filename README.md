@@ -1,9 +1,10 @@
+#Icons for J++
+
 This repo contains a symbol font, for use across J++ projects. A few social media icons, and a J++ logo.
 
 Fonts are generated using IcoMoon, and stored at Amazon S3, behind the Cloudfront CDN.
 
-Example
-=======
+##Example
 
     <link rel="stylesheet" type="text/css" href="example.css">
     
@@ -15,8 +16,7 @@ Example
         <span>+</span>
     </span>
 
-Glyphs
-======
+##Glyphs
 
 * `t`: Twitter logo
 * `f`: Facebook logo
