@@ -2,7 +2,8 @@ This repo contains a symbol font, for use across J++ projects. A few social medi
 
 Fonts are generated using IcoMoon, and stored at Amazon S3, behind the Cloudfront CDN.
 
-==Example==
+Example
+=======
 
     <link rel="stylesheet" type="text/css" href="example.css">
     
@@ -14,7 +15,8 @@ Fonts are generated using IcoMoon, and stored at Amazon S3, behind the Cloudfron
         <span>+</span>
     </span>
 
-==Glyphs==
+Glyphs
+======
 
 * `t`: Twitter logo
 * `f`: Facebook logo
