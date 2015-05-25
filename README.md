@@ -84,6 +84,12 @@ It can be implemented with pseudo elements, or by actually printing letters in t
     .twitter-icon:before {
         font-family: 'jplusplus';
         content: 't';
+        speak: none;
+        font-style: normal;font-weight: normal;
+        font-variant: normal;text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
     .visuallyhidden { 
         position: absolute; 
