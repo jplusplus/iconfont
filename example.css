@@ -1,0 +1,39 @@
+/* Include the font */
+@font-face {
+    font-family: 'jplusplus';
+    src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?srchcx');
+    src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?#iefixsrchcx') format('embedded-opentype'),
+        url('//static.jplusplus.se/iconfonts/jplusplus.woff?srchcx') format('woff'),
+        url('//static.jplusplus.se/iconfonts/jplusplus.ttf?srchcx') format('truetype'),
+        url('//static.jplusplus.se/iconfonts/jplusplus.svg?srchcx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Some reasonable defaults */
+.fonticon {
+    font-family: 'jpluspluse';
+    speak: none;
+    font-style: normal;font-weight: normal;
+    font-variant: normal;text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* No text decoration on links. */
+.fonticon a:link, .fonticon a:visited, .fonticon a:hover, .fonticon a:active{
+    text-decoration: none;
+    color: black;
+}
+
+/* The jplusplus logo consists of two characters, printed on top of each others*/
+.jpluspluslogo{
+    position:relative;
+    margin:0 2em 0 1em;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+.jpluspluslogo > span {position:absolute;left:0;}
+.jpluspluslogo > span:first-child {color:}
+.jpluspluslogo > span:last-child {color:gray}
