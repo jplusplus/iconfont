@@ -57,6 +57,8 @@ The font can be either loaded from Amazon (pro: caching, con: extra http request
         font-style: normal;
     }
 
+##Implementation
+
 It can be implemented with pseudo elements, or by actually printing letters in the markup. Either way, you'll have to take screenreaders and old browsers into considerations. Here are some boilerplates.
 
 ###Approach 1
