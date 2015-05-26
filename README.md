@@ -4,6 +4,8 @@ This repo contains a symbol font, for use across J++ projects. A few social medi
 
 Fonts are generated using IcoMoon, and stored at Amazon S3, behind the Cloudfront CDN.
 
+If you are going to use only one or a few icons, consider [Pirhoo's logo.js](https://github.com/Pirhoo/logo.js).
+
 ##Examples
 
     <link rel="stylesheet" type="text/css" href="example.css">
@@ -11,9 +13,8 @@ Fonts are generated using IcoMoon, and stored at Amazon S3, behind the Cloudfron
     Share on Facebook: <a href="https://www.facebook.com/sharer/sharer.php?u=http://jplusplus.se" class="fonticon">f</a>
 
     A J++-logo:
-    <span class="fonticon jpluspluslogo" aria-label="J Plus Plus" title="Journalism++">
-        <span>j</span>
-        <span>+</span>
+    <span class="fonticon jpluspluslogo">
+        <span>j</span><span>+</span><span>+</span>
     </span>
 
 Alternatively, you can use pseudo elements:
