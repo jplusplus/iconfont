@@ -1,11 +1,11 @@
 /* Include the font */
 @font-face {
     font-family: 'jplusplus';
-    src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?srchcx');
-    src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?#iefixsrchcx') format('embedded-opentype'),
-        url('//static.jplusplus.se/iconfonts/jplusplus.woff?srchcx') format('woff'),
-        url('//static.jplusplus.se/iconfonts/jplusplus.ttf?srchcx') format('truetype'),
-        url('//static.jplusplus.se/iconfonts/jplusplus.svg?srchcx#jplusplus') format('svg');
+    src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?c2');
+    src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?#iefixc2') format('embedded-opentype'),
+        url('//static.jplusplus.se/iconfonts/jplusplus.woff?c2') format('woff'),
+        url('//static.jplusplus.se/iconfonts/jplusplus.ttf?c2') format('truetype'),
+        url('//static.jplusplus.se/iconfonts/jplusplus.svg?c2#jplusplus') format('svg');
     font-weight: normal;
     font-style: normal;
 }
