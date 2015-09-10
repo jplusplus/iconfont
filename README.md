@@ -29,6 +29,8 @@ Either way, make sure that the content makes sense for people using screen reade
 * `f`: Facebook logo
 * `i`: LinkedIn logo
 * `g`: Google+ logo
+* `w`: WhatsApp logo
+* `s`: Snapchat logo
 * `j`: The 'j' of the J++ logo
 * `+`: The '+' of the J++ logo
 
