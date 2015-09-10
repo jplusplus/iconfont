@@ -31,6 +31,8 @@ Either way, make sure that the content makes sense for people using screen reade
 * `g`: Google+ logo
 * `w`: WhatsApp logo
 * `s`: Snapchat logo
+* `p`: Pinterest logo
+* `m`: Email symbol
 * `j`: The 'j' of the J++ logo
 * `+`: The '+' of the J++ logo
 
