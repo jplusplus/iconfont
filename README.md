@@ -23,7 +23,7 @@ Alternatively, you can use pseudo elements:
 
 Either way, make sure that the content makes sense for people using screen readers, and for browsers that don't handle CSS fonts well.
 
-##Glyphs
+## Glyphs
 
 * `t`: Twitter logo
 * `f`: Facebook logo
@@ -33,10 +33,12 @@ Either way, make sure that the content makes sense for people using screen reade
 * `s`: Snapchat logo
 * `p`: Pinterest logo
 * `m`: Email symbol
+* `d`: Download symbol
 * `j`: The 'j' of the J++ logo
 * `+`: The '+' of the J++ logo
+* `☰`: A menu icon (“hamburger” icon)
 
-##CSS
+## CSS
 
 The font can be either loaded from Amazon (pro: caching, con: extra http request), or embedded in the CSS (pro: no extra request, con: increased CSS size and no caching).
 
@@ -44,11 +46,11 @@ The font can be either loaded from Amazon (pro: caching, con: extra http request
 
     @font-face {
         font-family: 'jplusplus';
-        src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?c2');
-        src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?#iefixc2') format('embedded-opentype'),
-            url('//static.jplusplus.se/iconfonts/jplusplus.woff?c2') format('woff'),
-            url('//static.jplusplus.se/iconfonts/jplusplus.ttf?c2') format('truetype'),
-            url('//static.jplusplus.se/iconfonts/jplusplus.svg?c2#jplusplus') format('svg');
+        src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?c3');
+        src:url('//static.jplusplus.se/iconfonts/jplusplus.eot?#iefixc3') format('embedded-opentype'),
+            url('//static.jplusplus.se/iconfonts/jplusplus.woff?c3') format('woff'),
+            url('//static.jplusplus.se/iconfonts/jplusplus.ttf?c3') format('truetype'),
+            url('//static.jplusplus.se/iconfonts/jplusplus.svg?c3#jplusplus') format('svg');
         font-weight: normal;
         font-style: normal;
     }
@@ -62,11 +64,11 @@ The font can be either loaded from Amazon (pro: caching, con: extra http request
         font-style: normal;
     }
 
-##Implementation
+## Implementation
 
 It can be implemented with pseudo elements, or by actually printing letters in the markup. Either way, you'll have to take screenreaders and old browsers into considerations. Here are some boilerplates, trying to take accessability into account.
 
-###Printing glyphs
+### Printing glyphs
 
 **CSS**
 
@@ -84,13 +86,13 @@ It can be implemented with pseudo elements, or by actually printing letters in t
 
     Share on Twitter <span class="fonticon" aria-label="Twitter logo" title="Twitter">t</span>
 
-**Jade**
+**Pug**
 
     p Share on Twitter
       span(aria-label="Twitter logo") t
 
 
-###Pseaudo elements
+### Pseudo elements
 
 **CSS**
 
@@ -116,7 +118,7 @@ It can be implemented with pseudo elements, or by actually printing letters in t
 
     Share on Twitter <span class="twitter-icon"></span><span class="visually-hidden">Twitter</span>
 
-**Jade**
+**Pug**
 
     p Share on Twitter
       span.twitter-icon t
